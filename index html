@@ -1,0 +1,180 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>THAOBAN TECH</title>
+
+<style>
+:root {
+  --bg: #0b1220;
+  --panel: #131e30;
+  --accent: #45e0c0;
+  --white: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: var(--bg);
+  color: var(--white);
+}
+
+header {
+  padding: 35px 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #102b50, #087f77);
+}
+
+header h1 {
+  color: var(--accent);
+  font-size: 34px;
+}
+
+nav {
+  background: var(--panel);
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: var(--accent);
+  text-decoration: none;
+  margin: 8px;
+  display: inline-block;
+}
+
+.hero {
+  text-align: center;
+  padding: 45px 20px;
+}
+
+.hero h2 {
+  font-size: 28px;
+}
+
+.hero p {
+  color: #cbd5e1;
+  line-height: 1.7;
+}
+
+button {
+  background: var(--accent);
+  color: #0b1220;
+  border: none;
+  padding: 13px 22px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.courses {
+  padding: 25px 18px;
+  text-align: center;
+}
+
+.course {
+  background: var(--panel);
+  padding: 22px;
+  margin: 15px auto;
+  border-radius: 12px;
+  max-width: 450px;
+  border: 1px solid #26364d;
+}
+
+.course h3 {
+  color: var(--accent);
+}
+
+.course p {
+  color: #cbd5e1;
+  line-height: 1.6;
+}
+
+footer {
+  text-align: center;
+  padding: 25px;
+  background: var(--panel);
+  color: #aab8c9;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>⚡ THAOBAN TECH</h1>
+  <p>Learn. Build. Program. Innovate.</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#courses">Courses</a>
+  <a href="#about">About</a>
+</nav>
+
+<section class="hero" id="home">
+  <h2>Welcome to THAOBAN TECH</h2>
+  <p>
+    Explore electronics, robotics, programming
+    and embedded systems through practical learning.
+  </p>
+  <a href="#courses">
+    <button>Explore Courses</button>
+  </a>
+</section>
+
+<section class="courses" id="courses">
+  <h2>Our Learning Academy</h2>
+
+  <div class="course">
+    <h3>Electronics Fundamentals</h3>
+    <p>Understand resistors, LEDs, capacitors,
+    transistors and electronic circuits.</p>
+  </div>
+
+  <div class="course">
+    <h3>Arduino Academy</h3>
+    <p>Learn Arduino programming and build
+    practical electronics projects.</p>
+  </div>
+
+  <div class="course">
+    <h3>ESP32 Development</h3>
+    <p>Explore microcontrollers, GPIO,
+    Wi-Fi and Internet of Things.</p>
+  </div>
+
+  <div class="course">
+    <h3>Sensors and Measurements</h3>
+    <p>Discover ultrasonic, temperature,
+    humidity and light sensors.</p>
+  </div>
+
+  <div class="course">
+    <h3>Robotics Academy</h3>
+    <p>Learn motors, automation,
+    robotics and control systems.</p>
+  </div>
+</section>
+
+<section class="hero" id="about">
+  <h2>About THAOBAN TECH</h2>
+  <p>
+    Our mission is to make practical technology
+    education accessible to everyone.
+  </p>
+</section>
+
+<footer>
+  <p>© 2026 THAOBAN TECH</p>
+  <p>Learn. Build. Innovate.</p>
+</footer>
+
+</body>
+</html>
